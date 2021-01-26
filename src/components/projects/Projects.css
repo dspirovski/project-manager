@@ -1,0 +1,87 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  background-color: #e7e7e7;
+} 
+
+header {
+  text-align: center;
+}
+
+.project-item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  text-align: center;  
+  border-radius: 30px;
+  box-shadow: 0 10px 6px -6px #777;
+  padding: 5px;
+  outline: 0;  
+  font-size: 20px;
+}
+
+.project-title {
+  display: block; 
+  margin: 15px auto;
+  width: 30%;
+  text-align: center;  
+  font-size: 22px;  
+}
+
+.project-description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 20vh;
+  box-shadow: 0 10px 6px -6px #777;
+  font-size: 20px;
+  padding: 5px;
+  resize: none;
+}
+
+.submit-btn {
+  display: block;
+  margin: 10px auto;
+  border-radius: 4px;
+  background-color: #807e7e;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  color: white; 
+  transition: all 0.5s;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: #807e7e;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover, .submit-btn:hover {
+  background-color: #525151;
+}
+
+.view-btn {
+  cursor: pointer;
+  display: inline-block;
+  color: white
+}
+
+.table-row:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.table-row:hover {
+ background-color: #cfcfcf;
+}

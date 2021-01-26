@@ -1,0 +1,76 @@
+header {
+  text-align: center;
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.project-description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 20vh;  
+}
+
+.table-container {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.heading {
+  color: black;
+  background-color:gray;
+}
+
+.back-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #807e7e;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.back-button-span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: white;
+}
+
+.back-button .back-button-span:after {
+  content: ' \00AB';
+  position: absolute;
+  opacity: 0;
+  top: 0;  
+  left: -50px;
+  right: 50px;
+  transition: 0.5s;
+}
+
+.back-button:hover .back-button-span {
+  padding-left: 25px;
+}
+
+.back-button:hover .back-button-span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.table-head, .table-data {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 8px;
+}
