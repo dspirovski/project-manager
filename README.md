@@ -1,2 +1,2 @@
 # Project manager
-Simple application where you manage your projects.
+Simple application where you can manage your projects.
